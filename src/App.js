@@ -1,25 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.css";
+import NavBar from "./components/navBar";
+import QuantityPicker from "./components/quantityPicker";
+import Footer from "./components/footer";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import Todo from "./components/todo";
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      
+        <NavBar></NavBar>
+        <div className="App container-fluid">
+        <h1>Hello React</h1>
+
+        <QuantityPicker></QuantityPicker>
+      </div>
+      <Todo></Todo>
+
+      <Footer></Footer>
+    </React.Fragment>
   );
 }
 
