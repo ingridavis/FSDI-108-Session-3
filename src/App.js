@@ -2,11 +2,12 @@ import React from "react";
 
 import "./App.css";
 import NavBar from "./components/navBar";
-import QuantityPicker from "./components/quantityPicker";
+
 import Footer from "./components/footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Todo from "./components/todo";
+
+import Item from "./components/item";
 
 
 function App() {
@@ -16,12 +17,12 @@ function App() {
     <React.Fragment>
       
         <NavBar></NavBar>
-        <div className="App container-fluid">
-        <h1>Hello React</h1>
+          <div className="App container-fluid">
+            <h1>Hello React</h1>
 
-        <QuantityPicker></QuantityPicker>
-      </div>
-      <Todo></Todo>
+            <Item></Item>
+         </div>
+      
 
       <Footer></Footer>
     </React.Fragment>

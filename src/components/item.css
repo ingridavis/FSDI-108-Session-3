@@ -1,0 +1,22 @@
+
+
+h5, 
+h6{
+    display: inline-block;
+}
+
+h5{
+    color: red;
+}
+h6{
+    color: rgb(95, 95, 95);
+    margin-left: 20px;
+}
+.quantityPicker, 
+.btn-add{
+    display: inline-block;
+}
+
+.btn-add{
+    margin-left: 3rem;
+}

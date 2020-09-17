@@ -9,7 +9,7 @@ class QuantityPicker extends Component {
     render() { 
         
         return ( //return statement must only have one child
-            <div>
+            <div className="quantityPicker">
                 <button onClick={this.increase} className="btn btn-sm btn-info">+</button>  
                 <label>{this.state.quantity} </label> 
 
