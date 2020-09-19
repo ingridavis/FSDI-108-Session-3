@@ -8,13 +8,14 @@ class Item extends Component {
     render() { 
         return (
             <div className="item">
-                <img src="http://picsum.photos/200" alt="Product"></img>
+                <img src={"/images/products/" + this.props.product.image} 
+                alt="Product"></img>
 
-                <h4>Title of Product</h4>
-
+                <h4>{this.props.product.title}</h4>
+                
                 <div className="prices">
                     <h5>$ Total</h5>
-                    <h6>$ Price</h6>
+                    <h6>Price $ {this.props.product.price}</h6>
 
                 </div>
                 <div >

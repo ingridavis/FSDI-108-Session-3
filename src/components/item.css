@@ -1,4 +1,13 @@
 
+.item{
+ width: 250px;
+ height: 345px;
+ display: inline-block;
+ border: 1px solid rgb(192, 190, 190);
+ padding: 0px 10px 10px 10px;
+ margin-bottom: 10px;
+ 
+}
 
 h5, 
 h6{
@@ -19,4 +28,13 @@ h6{
 
 .btn-add{
     margin-left: 3rem;
+}
+
+.quantity-value{
+    width: 20px;
+}
+/* images */
+.item img{
+    width: 200px;
+    height: 200px;
 }

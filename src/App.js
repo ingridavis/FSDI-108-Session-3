@@ -7,7 +7,8 @@ import Footer from "./components/footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Item from "./components/item";
+
+import Catalog from "./components/catalog";
 
 
 function App() {
@@ -17,14 +18,13 @@ function App() {
     <React.Fragment>
       
         <NavBar></NavBar>
+        
           <div className="App container-fluid">
-            <h1>Hello React</h1>
-
-            <Item></Item>
+            <Catalog></Catalog>
          </div>
       
 
-      <Footer></Footer>
+        <Footer></Footer>
     </React.Fragment>
   );
 }
